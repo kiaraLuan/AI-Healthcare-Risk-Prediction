@@ -5,3 +5,4 @@ __pycache__/
 .env
 # Trained ML models
 models/*_model.pkl
+data/assessments.db
