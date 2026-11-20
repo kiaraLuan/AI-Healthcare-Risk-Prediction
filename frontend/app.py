@@ -542,10 +542,10 @@ elif st.session_state.screen == "mental_health":
 
 
         # Add Age
-        input_dict["Age"] = age
+        input_dict["Q1_1"] = age
 
 
-        input_dict["Gender"] = (
+        input_dict["Q1_2"] = (
     1 if gender == "Female" else 0
 )
 
