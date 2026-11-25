@@ -30,7 +30,7 @@ DB_PATH = DATA_DIR / "assessments.db"
 def load_models():
 
     chronic_model = joblib.load(
-        MODELS_DIR / "chronic_model.pkl"
+        MODELS_DIR / "chronic_xgb_model.pkl"
     )
 
     chronic_features = joblib.load(
